@@ -8,24 +8,108 @@
 
 /* Begin PBXBuildFile section */
 		051453591E1DF06400A86E29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051453581E1DF06400A86E29 /* AppDelegate.swift */; };
-		0514535B1E1DF06400A86E29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0514535A1E1DF06400A86E29 /* ViewController.swift */; };
 		0514535E1E1DF06400A86E29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0514535C1E1DF06400A86E29 /* Main.storyboard */; };
 		051453601E1DF06400A86E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0514535F1E1DF06400A86E29 /* Assets.xcassets */; };
 		051453631E1DF06400A86E29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051453611E1DF06400A86E29 /* LaunchScreen.storyboard */; };
+		051453711E1DF0A200A86E29 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051453701E1DF0A200A86E29 /* KeyboardViewController.swift */; };
+		051453751E1DF0A200A86E29 /* SwiftKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0514536E1E1DF0A200A86E29 /* SwiftKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		051453861E1DF13200A86E29 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0514537A1E1DF13200A86E29 /* back.jpg */; };
+		051453871E1DF13200A86E29 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0514537B1E1DF13200A86E29 /* image1.jpg */; };
+		051453881E1DF13200A86E29 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0514537C1E1DF13200A86E29 /* image2.jpg */; };
+		051453891E1DF13200A86E29 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0514537D1E1DF13200A86E29 /* image3.jpg */; };
+		0514538A1E1DF13200A86E29 /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0514537E1E1DF13200A86E29 /* image4.jpg */; };
+		0514538B1E1DF13200A86E29 /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0514537F1E1DF13200A86E29 /* image5.jpg */; };
+		0514538C1E1DF13200A86E29 /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 051453801E1DF13200A86E29 /* image6.jpg */; };
+		0514538D1E1DF13200A86E29 /* image7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 051453811E1DF13200A86E29 /* image7.jpg */; };
+		0514538E1E1DF13200A86E29 /* image8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 051453821E1DF13200A86E29 /* image8.jpg */; };
+		0514538F1E1DF13200A86E29 /* image9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 051453831E1DF13200A86E29 /* image9.jpg */; };
+		051453901E1DF13200A86E29 /* image10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 051453841E1DF13200A86E29 /* image10.jpg */; };
+		051453911E1DF13200A86E29 /* image11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 051453851E1DF13200A86E29 /* image11.jpg */; };
+		0514539E1E1DF15E00A86E29 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 051453921E1DF15E00A86E29 /* back.jpg */; };
+		0514539F1E1DF15E00A86E29 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 051453931E1DF15E00A86E29 /* image1.jpg */; };
+		051453A01E1DF15E00A86E29 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 051453941E1DF15E00A86E29 /* image2.jpg */; };
+		051453A11E1DF15E00A86E29 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 051453951E1DF15E00A86E29 /* image3.jpg */; };
+		051453A21E1DF15E00A86E29 /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 051453961E1DF15E00A86E29 /* image4.jpg */; };
+		051453A31E1DF15E00A86E29 /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 051453971E1DF15E00A86E29 /* image5.jpg */; };
+		051453A41E1DF15E00A86E29 /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 051453981E1DF15E00A86E29 /* image6.jpg */; };
+		051453A51E1DF15E00A86E29 /* image7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 051453991E1DF15E00A86E29 /* image7.jpg */; };
+		051453A61E1DF15E00A86E29 /* image8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0514539A1E1DF15E00A86E29 /* image8.jpg */; };
+		051453A71E1DF15E00A86E29 /* image9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0514539B1E1DF15E00A86E29 /* image9.jpg */; };
+		051453A81E1DF15E00A86E29 /* image10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0514539C1E1DF15E00A86E29 /* image10.jpg */; };
+		051453A91E1DF15E00A86E29 /* image11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0514539D1E1DF15E00A86E29 /* image11.jpg */; };
+		051453AB1E1DF2A100A86E29 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051453AA1E1DF2A100A86E29 /* FirstTableViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		051453731E1DF0A200A86E29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0514534D1E1DF06400A86E29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0514536D1E1DF0A200A86E29;
+			remoteInfo = SwiftKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		051453791E1DF0A200A86E29 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				051453751E1DF0A200A86E29 /* SwiftKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		051453551E1DF06400A86E29 /* SwiftCustomImageKeyboard1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCustomImageKeyboard1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		051453581E1DF06400A86E29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0514535A1E1DF06400A86E29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0514535D1E1DF06400A86E29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0514535F1E1DF06400A86E29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		051453621E1DF06400A86E29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		051453641E1DF06400A86E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0514536E1E1DF0A200A86E29 /* SwiftKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SwiftKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		051453701E1DF0A200A86E29 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		051453721E1DF0A200A86E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0514537A1E1DF13200A86E29 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		0514537B1E1DF13200A86E29 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		0514537C1E1DF13200A86E29 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		0514537D1E1DF13200A86E29 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		0514537E1E1DF13200A86E29 /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		0514537F1E1DF13200A86E29 /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
+		051453801E1DF13200A86E29 /* image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image6.jpg; sourceTree = "<group>"; };
+		051453811E1DF13200A86E29 /* image7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image7.jpg; sourceTree = "<group>"; };
+		051453821E1DF13200A86E29 /* image8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image8.jpg; sourceTree = "<group>"; };
+		051453831E1DF13200A86E29 /* image9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image9.jpg; sourceTree = "<group>"; };
+		051453841E1DF13200A86E29 /* image10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image10.jpg; sourceTree = "<group>"; };
+		051453851E1DF13200A86E29 /* image11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image11.jpg; sourceTree = "<group>"; };
+		051453921E1DF15E00A86E29 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		051453931E1DF15E00A86E29 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		051453941E1DF15E00A86E29 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		051453951E1DF15E00A86E29 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		051453961E1DF15E00A86E29 /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		051453971E1DF15E00A86E29 /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
+		051453981E1DF15E00A86E29 /* image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image6.jpg; sourceTree = "<group>"; };
+		051453991E1DF15E00A86E29 /* image7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image7.jpg; sourceTree = "<group>"; };
+		0514539A1E1DF15E00A86E29 /* image8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image8.jpg; sourceTree = "<group>"; };
+		0514539B1E1DF15E00A86E29 /* image9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image9.jpg; sourceTree = "<group>"; };
+		0514539C1E1DF15E00A86E29 /* image10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image10.jpg; sourceTree = "<group>"; };
+		0514539D1E1DF15E00A86E29 /* image11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image11.jpg; sourceTree = "<group>"; };
+		051453AA1E1DF2A100A86E29 /* FirstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		051453521E1DF06400A86E29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0514536B1E1DF0A200A86E29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				051453571E1DF06400A86E29 /* SwiftCustomImageKeyboard1 */,
+				0514536F1E1DF0A200A86E29 /* SwiftKeyboard */,
 				051453561E1DF06400A86E29 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				051453551E1DF06400A86E29 /* SwiftCustomImageKeyboard1.app */,
+				0514536E1E1DF0A200A86E29 /* SwiftKeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +140,47 @@
 		051453571E1DF06400A86E29 /* SwiftCustomImageKeyboard1 */ = {
 			isa = PBXGroup;
 			children = (
+				0514537A1E1DF13200A86E29 /* back.jpg */,
+				0514537B1E1DF13200A86E29 /* image1.jpg */,
+				0514537C1E1DF13200A86E29 /* image2.jpg */,
+				0514537D1E1DF13200A86E29 /* image3.jpg */,
+				0514537E1E1DF13200A86E29 /* image4.jpg */,
+				0514537F1E1DF13200A86E29 /* image5.jpg */,
+				051453801E1DF13200A86E29 /* image6.jpg */,
+				051453811E1DF13200A86E29 /* image7.jpg */,
+				051453821E1DF13200A86E29 /* image8.jpg */,
+				051453831E1DF13200A86E29 /* image9.jpg */,
+				051453841E1DF13200A86E29 /* image10.jpg */,
+				051453851E1DF13200A86E29 /* image11.jpg */,
 				051453581E1DF06400A86E29 /* AppDelegate.swift */,
-				0514535A1E1DF06400A86E29 /* ViewController.swift */,
+				051453AA1E1DF2A100A86E29 /* FirstTableViewController.swift */,
 				0514535C1E1DF06400A86E29 /* Main.storyboard */,
 				0514535F1E1DF06400A86E29 /* Assets.xcassets */,
 				051453611E1DF06400A86E29 /* LaunchScreen.storyboard */,
 				051453641E1DF06400A86E29 /* Info.plist */,
 			);
 			path = SwiftCustomImageKeyboard1;
+			sourceTree = "<group>";
+		};
+		0514536F1E1DF0A200A86E29 /* SwiftKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				051453921E1DF15E00A86E29 /* back.jpg */,
+				051453931E1DF15E00A86E29 /* image1.jpg */,
+				051453941E1DF15E00A86E29 /* image2.jpg */,
+				051453951E1DF15E00A86E29 /* image3.jpg */,
+				051453961E1DF15E00A86E29 /* image4.jpg */,
+				051453971E1DF15E00A86E29 /* image5.jpg */,
+				051453981E1DF15E00A86E29 /* image6.jpg */,
+				051453991E1DF15E00A86E29 /* image7.jpg */,
+				0514539A1E1DF15E00A86E29 /* image8.jpg */,
+				0514539B1E1DF15E00A86E29 /* image9.jpg */,
+				0514539C1E1DF15E00A86E29 /* image10.jpg */,
+				0514539D1E1DF15E00A86E29 /* image11.jpg */,
+				051453701E1DF0A200A86E29 /* KeyboardViewController.swift */,
+				051453721E1DF0A200A86E29 /* Info.plist */,
+			);
+			path = SwiftKeyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +193,34 @@
 				051453511E1DF06400A86E29 /* Sources */,
 				051453521E1DF06400A86E29 /* Frameworks */,
 				051453531E1DF06400A86E29 /* Resources */,
+				051453791E1DF0A200A86E29 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				051453741E1DF0A200A86E29 /* PBXTargetDependency */,
 			);
 			name = SwiftCustomImageKeyboard1;
 			productName = SwiftCustomImageKeyboard1;
 			productReference = 051453551E1DF06400A86E29 /* SwiftCustomImageKeyboard1.app */;
 			productType = "com.apple.product-type.application";
+		};
+		0514536D1E1DF0A200A86E29 /* SwiftKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051453761E1DF0A200A86E29 /* Build configuration list for PBXNativeTarget "SwiftKeyboard" */;
+			buildPhases = (
+				0514536A1E1DF0A200A86E29 /* Sources */,
+				0514536B1E1DF0A200A86E29 /* Frameworks */,
+				0514536C1E1DF0A200A86E29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftKeyboard;
+			productName = SwiftKeyboard;
+			productReference = 0514536E1E1DF0A200A86E29 /* SwiftKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +233,11 @@
 				ORGANIZATIONNAME = "kikuchi wataru";
 				TargetAttributes = {
 					051453541E1DF06400A86E29 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EPD5A4Z2R4;
+						ProvisioningStyle = Automatic;
+					};
+					0514536D1E1DF0A200A86E29 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = EPD5A4Z2R4;
 						ProvisioningStyle = Automatic;
@@ -115,6 +258,7 @@
 			projectRoot = "";
 			targets = (
 				051453541E1DF06400A86E29 /* SwiftCustomImageKeyboard1 */,
+				0514536D1E1DF0A200A86E29 /* SwiftKeyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -124,9 +268,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0514538A1E1DF13200A86E29 /* image4.jpg in Resources */,
+				0514538B1E1DF13200A86E29 /* image5.jpg in Resources */,
+				051453911E1DF13200A86E29 /* image11.jpg in Resources */,
+				051453861E1DF13200A86E29 /* back.jpg in Resources */,
+				0514538F1E1DF13200A86E29 /* image9.jpg in Resources */,
+				051453871E1DF13200A86E29 /* image1.jpg in Resources */,
+				0514538E1E1DF13200A86E29 /* image8.jpg in Resources */,
+				051453901E1DF13200A86E29 /* image10.jpg in Resources */,
 				051453631E1DF06400A86E29 /* LaunchScreen.storyboard in Resources */,
 				051453601E1DF06400A86E29 /* Assets.xcassets in Resources */,
+				0514538C1E1DF13200A86E29 /* image6.jpg in Resources */,
+				051453881E1DF13200A86E29 /* image2.jpg in Resources */,
+				0514538D1E1DF13200A86E29 /* image7.jpg in Resources */,
+				051453891E1DF13200A86E29 /* image3.jpg in Resources */,
 				0514535E1E1DF06400A86E29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0514536C1E1DF0A200A86E29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0514539E1E1DF15E00A86E29 /* back.jpg in Resources */,
+				051453A71E1DF15E00A86E29 /* image9.jpg in Resources */,
+				051453A31E1DF15E00A86E29 /* image5.jpg in Resources */,
+				051453A41E1DF15E00A86E29 /* image6.jpg in Resources */,
+				051453A51E1DF15E00A86E29 /* image7.jpg in Resources */,
+				051453A21E1DF15E00A86E29 /* image4.jpg in Resources */,
+				051453A01E1DF15E00A86E29 /* image2.jpg in Resources */,
+				0514539F1E1DF15E00A86E29 /* image1.jpg in Resources */,
+				051453A61E1DF15E00A86E29 /* image8.jpg in Resources */,
+				051453A81E1DF15E00A86E29 /* image10.jpg in Resources */,
+				051453A11E1DF15E00A86E29 /* image3.jpg in Resources */,
+				051453A91E1DF15E00A86E29 /* image11.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +312,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0514535B1E1DF06400A86E29 /* ViewController.swift in Sources */,
+				051453AB1E1DF2A100A86E29 /* FirstTableViewController.swift in Sources */,
 				051453591E1DF06400A86E29 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0514536A1E1DF0A200A86E29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051453711E1DF0A200A86E29 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		051453741E1DF0A200A86E29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0514536D1E1DF0A200A86E29 /* SwiftKeyboard */;
+			targetProxy = 051453731E1DF0A200A86E29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0514535C1E1DF06400A86E29 /* Main.storyboard */ = {
@@ -258,6 +449,7 @@
 		051453681E1DF06400A86E29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EPD5A4Z2R4;
 				INFOPLIST_FILE = SwiftCustomImageKeyboard1/Info.plist;
@@ -271,12 +463,39 @@
 		051453691E1DF06400A86E29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EPD5A4Z2R4;
 				INFOPLIST_FILE = SwiftCustomImageKeyboard1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kikuchi.SwiftCustomImageKeyboard1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		051453771E1DF0A200A86E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EPD5A4Z2R4;
+				INFOPLIST_FILE = SwiftKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kikuchi.SwiftCustomImageKeyboard1.SwiftKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		051453781E1DF0A200A86E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EPD5A4Z2R4;
+				INFOPLIST_FILE = SwiftKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kikuchi.SwiftCustomImageKeyboard1.SwiftKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -298,6 +517,14 @@
 			buildConfigurations = (
 				051453681E1DF06400A86E29 /* Debug */,
 				051453691E1DF06400A86E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		051453761E1DF0A200A86E29 /* Build configuration list for PBXNativeTarget "SwiftKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051453771E1DF0A200A86E29 /* Debug */,
+				051453781E1DF0A200A86E29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

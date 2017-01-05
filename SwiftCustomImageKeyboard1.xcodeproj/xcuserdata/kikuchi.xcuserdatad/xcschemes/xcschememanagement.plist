@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>SwiftKeyboard.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>051453541E1DF06400A86E29</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0514536D1E1DF0A200A86E29</key>
 		<dict>
 			<key>primary</key>
 			<true/>
